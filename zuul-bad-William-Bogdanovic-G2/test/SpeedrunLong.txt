@@ -1,0 +1,40 @@
+help
+go
+go north
+help
+items
+take Chainmail_Boots
+items
+back
+take Cell_Keys
+go north
+go north
+drop Cell_Keys
+items
+take Cell_Keys
+go north
+look
+take Magic_Cookie
+go north
+take Silver_Chestplate
+eat Silver_Chestplate
+go west
+items
+go north
+eat Magic_Cookie
+items
+go east
+go north
+go west
+go north
+go west
+go west
+go up
+go up
+go down
+go south
+go south
+back
+back
+go east
+go south

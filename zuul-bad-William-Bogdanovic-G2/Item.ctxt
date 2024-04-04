@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\ \r\n\ \r\n\ Class\ Item\ with\ a\ name,\ item\ description\r\n\ \r\n\ @author\ Bogdanovic\ William\r\n\ @version\ (april\ 2021)\r\n
+comment1.params=pName\ pDescription\ pEdible\ pWeight
+comment1.target=Item(java.lang.String,\ java.lang.String,\ boolean,\ double)
+comment1.text=\r\n\ Contructor\ of\ Item\r\n\ initialize\ the\ item's\ information\r\n\ \r\n\ @param\ pName\ stands\ for\ the\ name\ of\ the\ Item\r\n\ @param\ pDescription\ will\ give\ a\ quick\ description\ \r\n\ @param\ pEdible\ of\ item,\ whether\ edible\ or\ not\r\n\ @param\ pWeight\ of\ item\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ accessor\ for\ the\ name\ of\ the\ item\r\n\ \r\n\ @return\ String\ name\ of\ the\ item\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment3.text=\r\n\ accessor\ for\ the\ description\ of\ the\ item\r\n\ \r\n\ @return\ String\ description\ of\ the\ item\r\n
+comment4.params=
+comment4.target=boolean\ isEdible()
+comment4.text=\r\n\ accessor\ for\ the\ description\ of\ the\ item\r\n\ \r\n\ @return\ boolean\ true\ or\ false\ on\ wether\ the\ item\ is\ edible\ or\ not\r\n
+comment5.params=
+comment5.target=double\ getItemWeight()
+comment5.text=\r\n\ accessor\ for\ the\ weight\ of\ the\ item\r\n\ \r\n\ @return\ double\ description\ of\ the\ item\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ return\ the\ item's\ name\ in\ strings\ for\ a\ room\r\n\ \r\n\ @return\ in\ Strings\ the\ items\ in\ a\ room\r\n
+numComments=7

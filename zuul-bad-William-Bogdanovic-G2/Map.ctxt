@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Map
+comment0.text=\r\n\ Object\ that\ lets\ the\ player\ see\ a\ map\ of\ the\ castle\ when\ requirements\ are\ met\r\n\ \r\n\ @author\ Bogdanovic\ William\r\n\ @version\ (april\ 2021)\r\n
+comment1.params=
+comment1.target=Map()
+comment1.text=\r\n\ create\ the\ Item\ map\r\n\ \r\n\ \r\n
+comment2.params=
+comment2.target=boolean\ getMapIsLive()
+comment2.text=\r\n\ access\ to\ the\ boolean\ aMapIsLive\r\n\ \r\n\ @return\ the\ boolean\ aMapIsLive\r\n
+comment3.params=pBoolean
+comment3.target=void\ setMapIsLive(boolean)
+comment3.text=\r\n\ set\ the\ boolean\ aMapIsLive\r\n\ \r\n\ @param\ pBoolean\ to\ modify\ boolean\ aMapIsLive\r\n
+numComments=4

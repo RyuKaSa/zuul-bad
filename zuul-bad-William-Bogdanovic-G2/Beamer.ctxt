@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Beamer
+comment0.text=\r\n\ Object\ that\ lets\ the\ player\ tp\ back\ to\ a\ previous\ room\ he\ cleared\r\n\ \r\n\ @author\ Bogdanovic\ William\r\n\ @version\ (april\ 2021)\r\n
+comment1.params=
+comment1.target=Beamer()
+comment1.text=\r\n\ constructor\ of\ beamer\r\n\ \r\n\ \r\n
+comment2.params=
+comment2.target=Room\ getMemorizedRoom()
+comment2.text=\r\n\ access\ to\ the\ memorized\ room\r\n\ \r\n\ @return\ the\ memorized\ room\r\n
+comment3.params=
+comment3.target=boolean\ getCharged()
+comment3.text=\r\n\ access\ to\ aCharged\ \r\n\ \r\n\ @return\ true\ if\ the\ beamer\ if\ charged\r\n
+comment4.params=pBoolean
+comment4.target=void\ setCharged(boolean)
+comment4.text=\r\n\ modify\ aCharged\ with\ the\ boolean\ in\ parameter\r\n\ \r\n\ @param\ pBoolean\ Boolean\ used\r\n
+comment5.params=pRoom
+comment5.target=void\ setMemorizedRoom(Room)
+comment5.text=\r\n\ modify\ aMemorizedRoom\r\n\ \r\n\ @param\ pRoom\ to\ access\ the\ room\r\n
+numComments=6

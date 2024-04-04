@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ItemList
+comment0.text=\r\n\ Create\ and\ modify\ Inventory\ for\ items\r\n\r\n\ @author\ (Bogdanovic\ William)\r\n\ @version\ (2)\r\n
+comment1.params=
+comment1.target=ItemList()
+comment1.text=\r\n\ Constructor\ of\ Inventory\r\n\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getItemsString()
+comment2.text=\r\n\ methode\ to\ return\ a\ String\ of\ all\ the\ items\ of\ a\ HashMap\r\n\ \r\n\ \r\n\ @return\ Item\ that\ corresponds\ to\ the\ given\ name\r\n
+comment3.params=pName
+comment3.target=Item\ getItem(java.lang.String)
+comment3.text=\r\n\ procedure\ to\ add\ an\ item\r\n\ \r\n\ @param\ pName\ Name\ of\ Item\r\n\ @return\ the\ item\ corresponding\ to\ the\ name\ given\r\n\ \r\n
+comment4.params=pName\ pItem
+comment4.target=void\ addItem(java.lang.String,\ Item)
+comment4.text=\r\n\ procedure\ to\ add\ an\ item\ in\ the\ inventory\r\n\ \r\n\ @param\ pName\ Name\ of\ Item\r\n\ @param\ pItem\ the\ item\ itself\r\n\ \r\n
+comment5.params=pName\ pItem
+comment5.target=void\ removeItem(java.lang.String,\ Item)
+comment5.text=\r\n\ procedure\ to\ create\ an\ item\r\n\ \r\n\ @param\ pName\ Name\ of\ Item\r\n\ @param\ pItem\ Item\ used\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ returns\ in\ Strings\ the\ price\ and\ items\r\n\ \r\n\ @return\ strings\ that\ correspond\ to\ total\ price\ and\ a\ list\ of\ item\ names\r\n
+numComments=7
