@@ -1,0 +1,35 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ff94f83dd33, pid=20268, tid=33972
+#
+# JRE version: OpenJDK Runtime Environment (11.0.2+9) (build 11.0.2+9)
+# Java VM: OpenJDK 64-Bit Server VM (11.0.2+9, mixed mode, tiered, compressed oops, g1 gc, windows-amd64)
+# Problematic frame:
+# V  [jvm.dll+0x38dd33]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -ea -agentlib:jdwp=transport=dt_shmem,address=javadebug -Dfile.encoding=UTF-8 bluej.runtime.ExecServer UTF-8
+
+Host: Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz, 4 cores, 15G,  Windows 10 , 64 bit Build 19041 (10.0.19041.804)
+Time: Fri Apr  2 17:38:12 2021 Paris, Madrid (heure d’été) elapsed time: 2562 seconds (0d 0h 42m 42s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000029bb5edb000):  JavaThread "AWT-EventQueue-0" [_thread_in_vm, id=33972, stack(0x000000fd09000000,0x000000fd09100000)]
+
+Stack: [0x000000fd09000000,0x000000fd09100000],  sp=0x000000fd090ff2c0,  free space=1020k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x38dd33]
+V  [jvm.dll+0x6347c2]
+V  [jvm.dll+0x38e81a]
+V  [jvm.dll+0x38eaa7]
+V  [jvm.dll+0x40e081]
+V  [jvm.dll+0x73774d]

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Command
+comment0.text=\r\n\ Class\ to\ easily\ access\ the\ command\ words\ and\ second\ word\r\n\ \r\n\ \r\n\ \r\n\ @author\ Bogdanovic\ William\r\n\ @version\ (1)\r\n
+comment1.params=pCommandWord\ pSecondWord
+comment1.target=Command(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ default\ constructor\ of\ Command\r\n\ \r\n\ @param\ pCommandWord\ to\ attribute\ the\ command\ word\r\n\ @param\ pSecondWord\ to\ attribute\ the\ second\ word\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCommandWord()
+comment2.text=\r\n\ access\ the\ command\ word\r\n\ \r\n\ @return\ String\ of\ the\ command\ word\r\n
+comment3.params=
+comment3.target=java.lang.String\ getSecondWord()
+comment3.text=\r\n\ access\ the\ second\ word\r\n\ \r\n\ @return\ String\ of\ the\ second\ word\r\n
+comment4.params=
+comment4.target=boolean\ hasSecondWord()
+comment4.text=\r\n\ to\ return\ true\ or\ false\ depending\ on\ if\ there\ is\ a\ second\ word\ or\ not\r\n\ \r\n\ @return\ boolean\ true\ or\ false\ if\ there\ is\ or\ not\ a\ second\ word\r\n
+comment5.params=
+comment5.target=boolean\ isUnknown()
+comment5.text=\r\n\ to\ return\ true\ or\ false\ depending\ on\ if\ the\ first\ word\ is\ a\ valid\ command\ word\ or\ not\r\n\ \r\n\ @return\ boolean\ true\ or\ false\ if\ the\ first\ word\ is\ a\ valid\ command\ word\ or\ not\r\n
+numComments=6
